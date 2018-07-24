@@ -3,5 +3,11 @@ def mothers_day
   puts "Happy Mother's Day, Mom!"
 end
 
+mom = gets 
 
+def mothers_day(mom)
+  puts "Happy Mother's Day, #{mom}!"
+end
+
+mothers_day(mom)
 
